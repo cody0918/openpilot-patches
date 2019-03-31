@@ -9,7 +9,7 @@ diff --git a/selfdrive/controls/lib/model_parser.py b/selfdrive/controls/lib/mod
 index 747e918f..202678ee
 --- a/selfdrive/controls/lib/model_parser.py
 +++ b/selfdrive/controls/lib/model_parser.py
-@@ -4,7 +4,7 @@
+@@ -2,7 +2,7 @@
  from common.numpy_fast import interp
  from selfdrive.controls.lib.latcontrol_helpers import model_polyfit, calc_desired_path, compute_path_pinv
  
