@@ -1,5 +1,5 @@
 # cd /data/openpilot && curl https://raw.githubusercontent.com/cody0918/openpilot-patches/patch-2/0.5.12/vertical_aligned_phone_camera_mod.diff | git apply -v
-#
+# python -m compileall . && make
 # This patch prevents left line hugging when the phone camera is vertical aligned to car camera
 # The default value is 0.06m to the LEFT of the car camera.
 #
